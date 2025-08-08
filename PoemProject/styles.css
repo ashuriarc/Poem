@@ -1,0 +1,95 @@
+:root{
+    --color-principal: #661709;
+    --color-secundario: #0D0B0B;
+    /* definir los colores principales de la página*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Georgia', serif;
+  
+}
+
+
+.fondo {
+    background: linear-gradient(to right,  #000, var(--color-principal), var(--color-secundario));
+    height: 100%;
+    width: 100%;
+    /*background-image: url('love.png');
+    background-size: cover;
+    background-position: center;*/
+
+}
+
+.fondo .contenido{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.imagen{
+    width: 100%;
+    height: auto;
+    padding: 0;
+   
+}
+
+.card{
+    background-color: rgba(73, 3, 3, 0.282);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 4px 8px rgba(182, 180, 180, 0.2);
+    backdrop-filter: blur(10px);
+    max-width: 600px;
+    margin: auto;
+    animation: fadeIn 3s ease-in-out;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 35px;
+}
+
+blockquote{
+    font-size: 1.2rem;
+    font-size: 20px;
+}
+
+.poem{
+    font-style: italic;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.firma{
+    margin-bottom: 2.5rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+        
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+       
+    }
+}
