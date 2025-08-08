@@ -8,7 +8,7 @@ My goal is to improve my skills while having fun experimenting with creativity.
 ## ✨ Contents
 
 - `index.html` → Poem structure and semantic tags.
-- `style.css` → Visual styles and page layout.
+- `styles.css` → Visual styles and page layout.
 - Decorative images and typography to add an aesthetic touch.
 
 ---
